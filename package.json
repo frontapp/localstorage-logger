@@ -1,11 +1,12 @@
 {
   "name": "localstorage-logger",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A rolling logger that logs to local storage",
   "typescript": {
     "definition": "build/localstorage-logger.d.ts"
   },
-  "main": "index.js",
+  "main": "./build/LSL.js",
+  "types": "./build/LSL.d.ts",
   "scripts": {
     "test": "gulp ci"
   },
